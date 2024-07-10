@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Search Results</title>
+    <!-- Add any necessary CSS or styling links -->
+
+</head>
+<body>
+    <h1>Photo Search Results</h1>
+    {% for photo in photo_list %}
+        <div class="photo">
+            <img src="{{ photo.path }}" alt="{{ photo.name }}">
+            <p>{{ photo.description }}</p>
+            <p>Uploaded at: {{ photo.time }}</p>
+        <p>{{ photo.path }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>

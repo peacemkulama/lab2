@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo String - Upload Photos</title>
+    <style>
+        /* CSS styling for the photos */
+        .photo {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .photo img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .photo p {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Photo String - Upload Photos</h1>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="file">Select File:</label>
+    <input type="file" name="file"> 
+    <label for="description">Description:</label>
+    <input name="description" >
+    <input type="submit" value="Upload">
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+
+db==0.1.1
+Flask==2.3.2
+image==1.5.33
+Jinja2==3.1.2
+MarkupSafe==2.1.2
+Pillow==9.5.0
+pony==0.7.16
+pytest==7.3.1
+requests==2.30.0
+six==1.16.0
+
